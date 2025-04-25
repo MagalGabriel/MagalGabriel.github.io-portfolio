@@ -65,3 +65,10 @@ footer {
   background-color: #1e1e2f;
   color: white;
 }
+
+.img-class{
+  position: relative;
+  height: 240px;
+  width: 250px;
+   /* 16:9 Aspect Ratio */
+}
