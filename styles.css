@@ -72,3 +72,9 @@ footer {
   width: 250px;
    /* 16:9 Aspect Ratio */
 }
+
+a{
+  text-decoration: none;
+  color: #1e1e2f;
+
+}
