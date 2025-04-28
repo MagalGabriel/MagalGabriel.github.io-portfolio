@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
+  font-size: 20px;
 }
 
 body {
@@ -15,12 +16,22 @@ header {
   background-color: #1e1e2f;
   color: white;
   text-align: center;
-  padding: 2rem 1rem;
+  display: flex ;
+  padding: 1rem 0.5rem;
 }
 
 header h1 {
   font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  text-align: left;
+  align-self: center;
+}
+
+header img{
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 60px;
+  margin-left: 20px;
 }
 
 .portfolio {
@@ -44,7 +55,7 @@ header h1 {
   transform: translateY(-5px);
 }
 
-.project img {
+.imagem {
   width: 100%;
   height: auto;
   display: block;
@@ -66,15 +77,17 @@ footer {
   color: white;
 }
 
-.img-class{
-  position: relative;
-  height: 240px;
-  width: 250px;
-   /* 16:9 Aspect Ratio */
-}
 
 a{
   text-decoration: none;
   color: #1e1e2f;
 
+}
+
+
+
+.logo{
+  margin-left: 20px;
+  width: 32px;
+  height: 32px;
 }
