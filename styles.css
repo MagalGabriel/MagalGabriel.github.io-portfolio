@@ -75,6 +75,14 @@ footer {
   padding: 1rem;
   background-color: #1e1e2f;
   color: white;
+  text-align: center;
+  display: flex;
+}
+
+footer p{
+  align-self: center;
+  margin-left: 550px;
+  margin-right: 300px;
 }
 
 
@@ -90,4 +98,12 @@ a{
   margin-left: 20px;
   width: 32px;
   height: 32px;
+}
+
+.logo-footer{
+  margin-left: 200px;
+  width: 70px;
+  height: 70px;
+  align-self: flex-end;
+
 }
